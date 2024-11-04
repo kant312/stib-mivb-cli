@@ -1,4 +1,12 @@
 {
+    "name": "kant312/stib-mivb-cli",
+    "author": "Quentin Delcourt",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kant312\\StibMivbCli\\": "src/"
+        }
+    },
     "require": {
         "php-tui/php-tui": "^0.2.1"
     }
